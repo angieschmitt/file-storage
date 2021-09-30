@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+pre{
+    font-family: monospace;
+}
+
+.icon{
+    font-family: 'Material Icons';
+}
+
+a{
+    font-size: 12px;
+    border-bottom: 1px dashed black;
+    text-decoration: none;
+    color: black;
+
+    &:hover{
+        color: green;
+        border-color: green; 
+    }
+    &:visited{
+        color: darkred;
+        border-color: darkred; 
+    }
+}
